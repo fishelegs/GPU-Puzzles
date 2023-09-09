@@ -1,8 +1,8 @@
 from dataclasses import dataclass
 import numpy as np
-from chalk import *
+# from chalk import *
 from colour import Color
-import chalk
+# import chalk
 from dataclasses import dataclass
 from typing import List, Any
 from collections import Counter
@@ -314,7 +314,7 @@ def draw_results(results, name, tpbx, tpby, sparse=False):
     set_svg_height(50 * env.height)
 
 
-    chalk.core.set_svg_output_height(500)
+    # chalk.core.set_svg_output_height(500)
     return rectangle(env.width, env.height).fill_color(white) + full
 
 
